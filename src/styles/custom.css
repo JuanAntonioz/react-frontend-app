@@ -1,0 +1,9 @@
+
+.root {
+  isolation: isolate;
+}
+
+/* iOS 26+ Safari */
+body {
+  position: relative;
+}
