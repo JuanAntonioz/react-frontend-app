@@ -6,8 +6,19 @@ This repository is a practical template for building modern, modular, and reusab
 
 Use the following credentials to explore the private areas of the app:
 
-- Usuario: `emilys`
-- Contraseña: `emilyspass`
+Live demo URL: **https://main.d3eati6uexzl12.amplifyapp.com/**
+
+- user: `emilys`
+- password: `emilyspass`
+
+### Public Environment Variables
+
+These environment variables are required for the demo (add them to `.env`):
+
+```
+VITE_AUTH_API_URL=https://dummyjson.com/auth
+VITE_DATA_API_URL=https://randomuser.me/api
+```
 
 ## 📋 Key Features
 
