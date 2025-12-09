@@ -2,6 +2,13 @@
 
 This repository is a practical template for building modern, modular, and reusable React front-end apps. It includes a lean stack and patterns to keep projects responsive, accessible, and high-performing while following the architecture and technical guidelines documented here.
 
+## 🔐 Demo Access
+
+Use the following credentials to explore the private areas of the app:
+
+- Usuario: `emilys`
+- Contraseña: `emilyspass`
+
 ## 📋 Key Features
 
 - **Feature-Based Modularity:** Clear separation between infrastructure (`src/core`) and business domains (`src/modules`) to keep coupling low and enable growth.
@@ -47,10 +54,3 @@ The project follows a feature-based modular architecture. Infrastructure lives i
 - Detailed guides:
   - [Architecture](docs/architecture.md)
   - [Technical Decisions](docs/technical-decisions.md)
-
-## 🔐 Demo Access
-
-The application runs with a mock authentication server for demonstration purposes. Use the following credentials to access the private routes:
-
-- Email: `admin@demo.com`
-- Password: `admin`
