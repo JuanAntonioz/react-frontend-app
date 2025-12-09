@@ -14,25 +14,6 @@
     gap: var(--spacing-xl);
   }
 
-  .Header {
-    width: min(100%, 1100px);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: var(--spacing-lg);
-  }
-
-  .Brand {
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: var(--color-secondary);
-  }
-
-  .HeaderActions {
-    display: flex;
-    gap: var(--spacing-sm);
-  }
-
   .Hero {
     width: min(100%, 900px);
     display: block;

@@ -1,20 +1,10 @@
-import { Link } from 'react-router';
-
-import { Button } from '@/core/ui';
-
 import styles from './landing-page.module.css';
+import { AppHeader } from '@/core/ui/layout/header/app-header';
 
 export const LandingPage = () => {
   return (
     <section className={styles.Page}>
-      <header className={styles.Header}>
-        <div className={styles.Brand}>Team App</div>
-        <div className={styles.HeaderActions}>
-          <Button as={Link} to={'/'}>
-            Login
-          </Button>
-        </div>
-      </header>
+      <AppHeader />
 
       <div className={styles.Hero}>
         <div className={styles.Content}>
