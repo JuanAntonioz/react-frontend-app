@@ -15,7 +15,7 @@ export const DashboardLayout = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-stretch bg-gray-50 px-6 pt-8 pb-16 lg:px-12">
+    <div className="min-h-screen flex flex-col items-stretch bg-gray-50 px-6 pt-4 pb-8 lg:px-12">
       <AppHeader
         actions={
           <Button onClick={handleLogout} variant="ghost">
@@ -23,7 +23,7 @@ export const DashboardLayout = () => {
           </Button>
         }
       />
-      <main className="flex-1 w-full max-w-[1200px] mx-auto py-8">
+      <main className="w-full max-w-[1200px] mx-auto py-4">
         <Outlet />
       </main>
     </div>

@@ -19,7 +19,7 @@ export const Users = () => {
 
       <div
         className="border rounded-lg overflow-hidden bg-white shadow-sm"
-        style={{ height: '600px' }}
+        style={{ height: '450px' }}
       >
         <VirtualList
           data={users}
