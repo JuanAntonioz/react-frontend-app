@@ -1,9 +1,10 @@
+@layer base {
+  .root, #root {
+    isolation: isolate;
+  }
 
-.root {
-  isolation: isolate;
-}
-
-/* iOS 26+ Safari */
-body {
-  position: relative;
+  body {
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+  }
 }

@@ -1,4 +1,5 @@
-@layer preflight, custom;
+@import 'tailwindcss';
 
-@import './styles/preflight.css' layer(preflight);
-@import './styles/custom.css' layer(custom);
+@import './core/theme/theme.css';
+
+@import './styles/custom.css';

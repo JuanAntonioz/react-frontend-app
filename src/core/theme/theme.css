@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-primary: #0052cc;
+  --color-secondary: #172b4d;
+  --color-success: #36b37e;
+  --color-danger: #ff5630;
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f4f5f7;
+
+  /* Spacing scale */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Breakpoints */
+  --breakpoint-mobile: 365px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1024px;
+  --breakpoint-wide: 1440px;
+}
