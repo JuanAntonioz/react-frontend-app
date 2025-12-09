@@ -1,17 +1,8 @@
 @layer components {
   .Page {
-    min-height: 100vh;
-    padding: calc(var(--spacing-xl) * 1.5) var(--spacing-lg);
-    background: linear-gradient(
-        135deg,
-        color-mix(in srgb, var(--color-primary), transparent 80%),
-        transparent 45%
-      ),
-      var(--color-gray-50);
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: var(--spacing-xl);
+    justify-content: center;
   }
 
   .Hero {

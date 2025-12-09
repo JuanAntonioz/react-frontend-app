@@ -1,7 +1,7 @@
 import { VirtualList } from '@/core/ui/collections/virtual-list';
+import { FullScreenLoader } from '@/core/ui/feedback/loader';
 import { useGetUsers } from '../hooks/use-get-users';
 import { UserCard } from '../components/user-card';
-import { FullScreenLoader } from '@/core/ui/feedback/loader';
 
 export const Users = () => {
   const { users, loading } = useGetUsers();
@@ -9,7 +9,7 @@ export const Users = () => {
   if (loading) return <FullScreenLoader />;
 
   return (
-    <div className="p-4 h-screen flex flex-col gap-4 bg-gray-50">
+    <div className="p-4 flex flex-col gap-4 bg-gray-50">
       <header>
         <h1 className="text-2xl font-bold text-gray-800">Directorio</h1>
         <p className="text-sm text-gray-500">

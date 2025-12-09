@@ -1,16 +1,15 @@
 @layer components {
   .Page {
-    min-height: 100vh;
     padding: var(--spacing-lg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: var(--color-gray-50);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 
   .Shell {
-    width: 100%;
-    max-width: 960px;
+    width: min(100%, 960px);
+    margin: var(--spacing-xl) auto 0;
     background: #fff;
     border-radius: 32px;
     padding: var(--spacing-xl);
