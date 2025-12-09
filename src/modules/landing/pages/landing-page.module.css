@@ -1,0 +1,79 @@
+@layer components {
+  .Page {
+    min-height: 100vh;
+    padding: calc(var(--spacing-xl) * 1.5) var(--spacing-lg);
+    background: linear-gradient(
+        135deg,
+        color-mix(in srgb, var(--color-primary), transparent 80%),
+        transparent 45%
+      ),
+      var(--color-gray-50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-xl);
+  }
+
+  .Header {
+    width: min(100%, 1100px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-lg);
+  }
+
+  .Brand {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+  }
+
+  .HeaderActions {
+    display: flex;
+    gap: var(--spacing-sm);
+  }
+
+  .Hero {
+    width: min(100%, 900px);
+    display: block;
+    background: #fff;
+    border-radius: 24px;
+    padding: calc(var(--spacing-xl) * 1.1);
+    box-shadow: 0 20px 45px rgba(15, 23, 42, 0.1);
+  }
+
+  .Content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+
+  .Eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.8rem;
+    color: color-mix(in srgb, var(--color-secondary), transparent 25%);
+  }
+
+  .Title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 700;
+    color: var(--color-secondary);
+  }
+
+  .Description {
+    color: color-mix(in srgb, var(--color-secondary), transparent 35%);
+    line-height: 1.7;
+    font-size: 1.05rem;
+  }
+
+  .Actions {
+    margin-top: var(--spacing-lg);
+  }
+
+  @media (min-width: var(--breakpoint-tablet)) {
+    .Hero {
+      padding: calc(var(--spacing-xl) * 1.3);
+    }
+  }
+}
