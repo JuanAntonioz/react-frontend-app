@@ -33,6 +33,7 @@ VITE_DATA_API_URL=https://randomuser.me/api
 - **Routing:** React Router v7
 - **Network:** Axios
 - **Styling:** CSS Modules and/or TailwindCSS
+- **Deployment:** AWS Amplify (environment variables provided above)
 
 ## ⚙️ Development Workflow
 
