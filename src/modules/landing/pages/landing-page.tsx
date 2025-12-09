@@ -19,13 +19,10 @@ export const LandingPage = () => {
       <div className={styles.Hero}>
         <div className={styles.Content}>
           <p className={styles.Eyebrow}>Directorio de usuarios</p>
-          <h1 className={styles.Title}>
-            Entrevistas, perfiles y accesos en un solo panel
-          </h1>
+          <h1 className={styles.Title}>Perfiles de usuarios</h1>
           <p className={styles.Description}>
-            La aplicación te permite revisar fichas de empleados, estados y
-            permisos desde cualquier lugar. Ideal para los equipos que necesitan
-            mantener el directorio siempre al día.
+            La aplicación te permite revisar fichas de usuarios: nombres,
+            apellidos y otros datos personales desde cualquier lugar.
           </p>
         </div>
       </div>
