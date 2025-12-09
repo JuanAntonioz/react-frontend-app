@@ -1,0 +1,86 @@
+@layer components {
+  .Page {
+    min-height: 100vh;
+    padding: var(--spacing-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-gray-50);
+  }
+
+  .Shell {
+    width: 100%;
+    max-width: 960px;
+    background: #fff;
+    border-radius: 32px;
+    padding: var(--spacing-xl);
+    box-shadow: 0 25px 45px rgba(15, 23, 42, 0.08);
+    display: grid;
+    gap: var(--spacing-xl);
+  }
+
+  .Intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    color: var(--color-secondary);
+  }
+
+  .Title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+  }
+
+  .Description {
+    line-height: 1.6;
+    color: color-mix(in srgb, var(--color-secondary), transparent 30%);
+  }
+
+  .FormWrapper {
+    width: 100%;
+  }
+
+  @media (max-width: var(--breakpoint-mobile)) {
+    .Page {
+      padding: var(--spacing-md);
+    }
+
+    .Shell {
+      padding: var(--spacing-lg);
+    }
+  }
+
+  @media (min-width: var(--breakpoint-tablet)) {
+    .Shell {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      align-items: center;
+      padding: calc(var(--spacing-xl) * 1.25);
+    }
+
+    .Intro {
+      text-align: left;
+      padding-right: var(--spacing-xl);
+    }
+
+    .Title {
+      font-size: 2.25rem;
+    }
+  }
+
+  @media (min-width: var(--breakpoint-desktop)) {
+    .Page {
+      padding: calc(var(--spacing-xl) * 2);
+    }
+
+    .Shell {
+      border-radius: 40px;
+      gap: calc(var(--spacing-xl) * 1.25);
+    }
+
+    .Title {
+      font-size: 2.6rem;
+    }
+  }
+}
