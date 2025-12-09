@@ -1,0 +1,22 @@
+@layer components {
+  .Header {
+    width: min(100%, 1100px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-lg);
+    padding: var(--spacing-lg) 0;
+  }
+
+  .Brand {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+  }
+
+  .HeaderActions {
+    display: flex;
+    gap: var(--spacing-sm);
+  }
+}
